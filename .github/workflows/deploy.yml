@@ -8,7 +8,7 @@ on:
 env:
   # ADJUST THE FOLLOWING
   # where is the site folder, use "" if the repo root is
-  SITE_FOLDER: ""
+  SITE_FOLDER: "."
   # if it's a personal site, use "" otherwise use the name of the repo
   BASE_URL_PREFIX: "xranklin-pgf"
   # if it's not a preview, use ""
