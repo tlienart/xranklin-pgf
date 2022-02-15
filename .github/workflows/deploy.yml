@@ -81,7 +81,7 @@ jobs:
         name: Install LaTeX 🌴
         run: |
           sudo apt-get update -qq
-          sudo apt install -y pdf2svg texlive-latex-base texlive-luatex
+          sudo apt install -y pdf2svg texlive-latex-base texlive-luatex texlive-latex-extra
 
       # ================ #
       # BUILDING WEBSITE #
