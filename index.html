@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="franklin-content" >
+  <h1 id="hello" ><a href="#hello"> Hello</a></h1><p>abc</p>
+<pre><code class="julia">using LaTeXStrings
+import PGFPlotsX
+PGFPlotsX.@pgf PGFPlotsX.Axis(
+    &lbrace;
+      xlabel = L&quot;x&quot;,
+      ylabel = L&quot;f(x) = x^2 - x + 4&quot;
+    &rbrace;,
+    PGFPlotsX.Plot(
+      PGFPlotsX.Expression(&quot;x^2 - x + 4&quot;)
+    )
+)</code></pre>
+<div class="code-output"><img class="code-figure" src="/xranklin-pgf/assets/index/figs-html/__autofig_11804063235920850822.svg">
+</div>
+  
+</div>
+
+
+
+  </body>
+</html>
